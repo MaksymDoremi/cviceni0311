@@ -8,7 +8,7 @@
 	
 	<title>Domovska</title>
 </head>
-<body>
+<body style="min-width: 450px;">
 
 
 	<!-- NAVBAR -->
@@ -50,28 +50,64 @@
 
 	<div class="container mt-1">
 		<div class="row">
-			<div class="col-12 col-lg-4 card bg-light gy-4"><p class="h2">Nejlepší bazar v Královci</p>
-				<p>Prodáváme nejkvalitnější auta z celého světa a ne jenom. <br> Také si u nás objednadli už hodně celebrit.</p><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<!-- nejlepsi bazar -->
+			<div class="col-12 col-lg-4 card bg-light gy-4">
+				<p class="h2 mt-2">Nejlepší bazar v Královci</p>
+				<p>Prodáváme nejkvalitnější auta z celého světa a ne jenom. <br> Také si u nás objednadli už hodně celebrit.</p>
 				<p>
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-						Tajemství úspěchů
+					Důvody proč nakoupit u nás
+				</p>
+
+				<div class="accordion mb-3" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Kvalita
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<strong>Inzerujem auta pouze od ověřených prodejců.</strong>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Rychlost
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<strong>Auta jsou rychlá, víte li, že i objednání také?</strong> 
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Pojišťění
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<strong>Auta jsou vybavená doživotní zárukou a pojistnou smlouvou.</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="text-center">
+					<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						Tajemsví úspěchů
 					</button>
 				</p>
 				<div class="collapse" id="collapseExample">
 					<div class="card card-body">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						Protože Královec je Česko 
 					</div>
 				</div>
 			</div>
-
-
-
+			<!-- carousel -->
 			<div class="col gy-4">
 				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-inner">
@@ -96,6 +132,46 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- nejzhavejsi nabidky -->
+		<div class="row mt-2 gx-2 justify-content-between">
+			<div class="col-md-3 col-sm-6 col-12">
+				<div class="card">
+					<img src="img/car1.jpg" class="card-img-top" alt="...">
+					<div class="card-body shadow-md">
+						<h5 class="card-title">Koingseg</h5>
+						<p class="card-text">Tahle kára je prosto super.</p>
+						<p class="card-text"><strong>Pouhých 7000$</strong></p>
+						<a href="#" class="btn btn-primary">Koupit</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-12">
+				<div class="card">
+					<img src="img/car2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Pagani</h5>
+						<p class="card-text">Pro opravdove fanousky.</p>
+						<p class="card-text"><strong>Pouhých 9999$</strong></p>
+						<a href="#" class="btn btn-primary">Koupit</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-12">
+				<div class="card">
+					<img src="img/car3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Mustang</h5>
+						<p class="card-text">Je to Amerika?</p>
+						<p class="card-text"><strong>Pouhých 9899$</strong></p>
+						<a href="#" class="btn btn-primary">Koupit</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
 	</div>
 </div>
 
